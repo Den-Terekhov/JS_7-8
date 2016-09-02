@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Tahoma;
+}
+
+/*TABS*/
+.wrapper_tabs {
+  width: 600px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.tab_link {
+  display: inline-block;
+  margin: 0px 10px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  background-color: #DAFF6D;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.hovered {
+  background-color: #BFFF00;
+}
+
+.active_link {
+  cursor: text;
+  color: #fff;
+  background-color: #5BD393;
+}
+
+.tab_content {
+  display: none;
+  padding: 15px;
+  background-color: #5BD393;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+}
+
+.active_tab {
+  display: block;
+}
+
+.text {
+  margin-top: 10px;
+  text-align: justify;
+  text-indent: 25px;
+}
+
+
+/*TOOLTIPS*/
+.wrapper_tooltips {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+form {
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+form>div{
+  height: 60px;
+  /*line-height: 50px;*/
+  /*display: inline-block;*/
+  /*vertical-align: middle;*/
+}
+
+div>input {
+  /*height: 30px;             /*убрать*/
+  /*vertical-align: middle;*/
+
+}
+
+label {
+  display: inline-block;
+  line-height: 60px;
+  width: 80px;
+}
+
+.tooltip {
+  display: none;
+}
+
+.active_tooltip {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #ededed;
+}
+
+button:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.wrapper_tooltips .active_button {
+  background-color: blue;
+  color: #fff;
+}
+
+/*body {
+  background-color: #000;
+  font-family: Arial;
+  text-align: center;
+}
+
+.wrapper, .buttons {
+  margin: 0 auto;
+  width: 50%;
+}
+
+button {
+  margin: 5px;
+  width: 120px;
+  height: 50px;
+  font-size: 40px;
+}
+
+.wrapper {
+  color: red;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.timeStamp {
+  margin: 0 auto;
+  width: 50%;
+  font-size: 40px;
+  color: grey;
+}*/
