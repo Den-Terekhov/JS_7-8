@@ -70,15 +70,6 @@ form {
 
 form>div{
   height: 60px;
-  /*line-height: 50px;*/
-  /*display: inline-block;*/
-  /*vertical-align: middle;*/
-}
-
-div>input {
-  /*height: 30px;             /*убрать*/
-  /*vertical-align: middle;*/
-
 }
 
 label {
@@ -117,34 +108,3 @@ button:hover {
   background-color: blue;
   color: #fff;
 }
-
-/*body {
-  background-color: #000;
-  font-family: Arial;
-  text-align: center;
-}
-
-.wrapper, .buttons {
-  margin: 0 auto;
-  width: 50%;
-}
-
-button {
-  margin: 5px;
-  width: 120px;
-  height: 50px;
-  font-size: 40px;
-}
-
-.wrapper {
-  color: red;
-  font-size: 80px;
-  font-weight: 600;
-}
-
-.timeStamp {
-  margin: 0 auto;
-  width: 50%;
-  font-size: 40px;
-  color: grey;
-}*/
